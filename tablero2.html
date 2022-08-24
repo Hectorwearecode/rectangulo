@@ -16,20 +16,16 @@
         j = 0
         let S = " "
         while(i<numero){
-            if((i+j) % 2 == 0){
-                    S =S+"X";
-                }else{
-                    S =S+"0";
-                }
             while(j<numero){
-                j =j+1;
                 if((i+j) % 2 == 0){
                     S =S+"X";
                 }else{
                     S =S+"0";
                 }
-            }console.log(S)
-        }
+                i = i+1; j= j+1;
+                console.log(S);
+            } 
+            }
     </script>
 </body>
 </html>
