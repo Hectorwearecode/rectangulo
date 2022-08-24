@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let palabra = prompt("Escribe una palabra cualquiera en minúsculas");
+        let numerodeletras = palabra.length;
+        let mitad = (numerodeletras/2);
+        let mitadtext = palabra.substring(mitad);
+        let mitadtextmayus = mitadtext.toUpperCase();
+        let cambio = palabra.replaceAll(mitadtext,mitadtextmayus);
+        console.log(cambio);
+    </script>
+</body>
+</html>
