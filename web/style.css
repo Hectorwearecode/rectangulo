@@ -1,7 +1,35 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0 vh;
+    margin: 0 vh;
 }
+#titulin{
+        display: flex;
+        align-items: center;
+        padding: 4vh 10vh 4vh 10vh;
+        background-color: rgb(180, 0, 0);
+    }
+    
+    #title{
+        color: rgb(180, 0, 0);
+        margin: 0 1vh 0 1vh;
+        padding: 0 2vh 0 2vh;
+        background-color:white;
+        border-radius: 4px;
+    }
+#titulinbis{
+        display: flex;
+        align-items: center;
+        padding: 4vh 10vh 4vh 10vh;
+        background-color: rgb(0, 180, 21);
+    }
+    
+    #titlebis{
+        color: rgb(0, 180, 21);
+        margin: 0 1vh 0 1vh;
+        padding: 0 2vh 0 2vh;
+        background-color:white;
+        border-radius: 4px;
+    }
 #cabeceraprin{
     background-color:white;
     border-radius: 4px;
