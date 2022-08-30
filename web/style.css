@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#cabeceraprin{
+    background-color:white;
+    border-radius: 4px;
+    justify-content: center;
+    text-decoration-color: rgb(180, 0, 0);
+}
+#content{
+    background-color: rgb(180, 0, 0);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.column{
+
+    padding: 4vh;
+}
+
+.title{
+    text-align: center;
+}
+
+.paragraph {
+    text-align: center;
+}
+#contentbis{
+    background-color: rgb(0, 180, 21);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.column{
+
+    padding: 4vh;
+}
+
+.title{
+    text-align: center;
+}
+
+.paragraph {
+    text-align: center;
+}
