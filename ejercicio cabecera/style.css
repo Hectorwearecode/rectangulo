@@ -5,15 +5,18 @@
 
 #header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 4vh 10vh 4vh 10vh;
     background-color: blue;
+    color: white;
+    justify-content: space-between;
 }
 
-#title{
+#subtitle{
     color: white;
-    padding: 0vh 0vh 0vh 0vh;
+    display: flex;
+    background-color: blue;
+    font-size: small;
+    justify-content:left
 }
 
 #list {
@@ -27,11 +30,6 @@ li {
     background-color: blue;
     border-radius: 4px;
     color: white;
+
  }
-#subtitle {
-    color: white ;
-    background-color: blue;
-    padding: 0vh 0vh 0vh 35vh;
-    font-size:xx-small;
-}    
-}
+
