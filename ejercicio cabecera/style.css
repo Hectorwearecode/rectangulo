@@ -2,34 +2,36 @@
     margin: 0;
     padding: 0;
 }
-
-#header {
+#header{
     display: flex;
-    padding: 4vh 10vh 4vh 10vh;
+    justify-content:space-around;
+    align-items: center;
+    background-color: blue;
+}
+#titulos{
+    max-width: 60%;
     background-color: blue;
     color: white;
-    justify-content: space-between;
+    text-align: left;
+    padding: 2vh;
+}
+#titulo2{
+    text-align: right;
 }
 
-#subtitle{
-    color: white;
-    display: flex;
-    background-color: blue;
-    font-size: small;
-    justify-content:left
-}
 
 #list {
-    list-style-type: none;
+    padding: 2vh;
+    background-color: blue;
+    align-content: center;
+}
+ul{
+    background-color: blue;
     display: flex;
 }
-
 li {
-    margin: 0 1vh 0 1vh;
-    padding: 0 2vh 0 2vh;
+    margin: 0 2vh;
     background-color: blue;
-    border-radius: 4px;
     color: white;
-
  }
 
