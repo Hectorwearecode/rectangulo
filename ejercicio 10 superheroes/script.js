@@ -259,5 +259,9 @@ let sexopersona = prompt ("¿Cuál es tu sexo, masculino o femenino? Escríbelo:
 let subcadenanombre = comienzonombre.substring(0,1);
 let subcadenaapellido = comienzoapellido.substring(0,1);
 let subcadenafechacumple = fechacumple.substring(5);
-let partedelnombre = letraNombre.subcadenanombre.sexopersona;
+let partedelnombre = letraNombre[subcadenanombre][sexopersona];
+let partedelapellido = letraApellido[subcadenaapellido][sexopersona];
+let partedelafecha = fechaNacimiento[subcadenafechacumple][sexopersona];
 console.log(partedelnombre);
+console.log(partedelapellido);
+console.log(partedelafecha);
