@@ -184,13 +184,13 @@ if(personas[nombre] == null){
     console.log("El nombre no existe");
 }else{
     document.querySelector("body").innerHTML = `
-    <div id="main">
+    <div id="main" style="background-color:${personas[nombre]["eyeColor"]}">
         <img src=${personas[nombre]["picture"]}></img>
         <h1 id="title">${nombre}</h1>
         <p id="paragraph">${personas[nombre]["age"]}</p>
         <p id="paragraph">${personas[nombre]["email"]}</p>
         <p id="paragraph">${personas[nombre]["address"]}</p>'
-        <link rel="stylesheet" href="style.css" />
     </div>
 `;
 }
+
